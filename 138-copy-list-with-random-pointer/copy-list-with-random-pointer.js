@@ -27,6 +27,5 @@ var copyRandomList = function(head) {
         temp=temp.next;
         input2=input2.next;
     }
-    console.log(res);
     return res.next;
 };
